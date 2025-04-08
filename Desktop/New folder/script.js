@@ -10,7 +10,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Add scroll animation to elements
 const animateOnScroll = () => {
-    const elements = document.querySelectorAll('.benefit-card, .testimonial-card');
+    const elements = document.querySelectorAll('.benefit-card');
     
     elements.forEach(element => {
         const elementPosition = element.getBoundingClientRect().top;
